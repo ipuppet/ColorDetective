@@ -1,0 +1,111 @@
+html, body {
+    overflow: auto;
+}
+
+#mesBox {
+    display: none;
+    position: absolute;
+    z-index: 99999999999999999999999;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    height: 100px;
+    line-height: 100px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 24px;
+}
+
+.Home_ {
+    background-image: url('../images/timg.jpg');
+    background-size: cover;
+    background-position-x: center;
+}
+
+.startBtn {
+    position: absolute;
+    right: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    bottom: 100px;
+}
+
+.ruleBox {
+    position: absolute;
+    width: 80%;
+    max-height: 350px;
+    left: 10%;
+    top: 20%;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 20px;
+    padding: 20px;
+    border: 1px solid #adadad;
+}
+
+.loginBox {
+    display: none;
+    position: absolute;
+    width: 90%;
+    height: 70%;
+    top: 15%;
+    left: 5%;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.login {
+    position: absolute;
+    top: 20px;
+    left: 5%;
+    width: 90%;
+}
+
+.registered {
+    display: none;
+    position: absolute;
+    top: 20px;
+    left: 5%;
+    width: 90%;
+}
+
+.question {
+    height: 50px;
+}
+
+.optBtn div {
+    border: 2.5px solid rgba(255, 255, 255, 1);
+    border-radius: 20px;
+    overflow: hidden;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    padding: 0;
+}
+
+.scoreBox {
+    width: 100%;
+    font-size: 16px;
+}
+
+/*finish页*/
+.list {
+    position: relative;
+    width: 90%;
+    left: 5%;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 10px 20px 5px 20px;
+    margin-top: 20px;
+}
+.reTry{
+    width: 100%;
+    text-align: center;
+    font-size: 26px;
+    margin-top: 20px;
+}

@@ -1,2 +1,2 @@
-# ColorDetective
-一个点击相同颜色方块的游戏
+#ColorDetective
+### 颜色侦探小游戏
